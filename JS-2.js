@@ -65,12 +65,12 @@ function sumArray(arr) {
   return sum;
 }
 let numbers = [1,2,4]
-console.log (sumArray(i));
+console.log (sumArray(numbers));
 
 //Задание 11
 let isAdult =true
 age = 18
-let message = (age>=18) ? console.log(true):console.log(false)
+let message = (age>=18) ? console.log(isAdult):console.log(!isAdult)
 
 //Задание 2.1
 let test = prompt('Введите ваш возраст',)
@@ -99,17 +99,9 @@ function getStringLength (str) {
 }
 
 // Задание 3.3
-function calculate (a,b) {
-    switch (operator) {
-  case '+':
-    return a + b
-  case '-':
-    return a - b
-  case '*':
-    return a * b
-  case '/':
-    }
-} 
+function addNumbers (num1,num2) {
+    return num1 + num2
+}
 
 //Задание 3.4
 function filterNumbersGreaterThan (numbers,threshold) {
